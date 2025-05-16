@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Al Pal gorjus sunshine</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(135deg, #a0dfff 0%, #d7caff 100%);
+      font-family: "Comic Sans MS", cursive, sans-serif;
+      color: #333;
+      text-align: center;
+      overflow: hidden;
+    }
+
+    h1 {
+      font-size: 3em;
+      margin-top: 50px;
+      text-shadow: 2px 2px #fff;
+    }
+
+    p {
+      font-size: 1.5em;
+      margin: 20px auto;
+      max-width: 600px;
+      background: rgba(255, 255, 255, 0.75);
+      padding: 20px;
+      border-radius: 20px;
+      box-shadow: 0 0 15px white;
+    }
+
+    .hedgehog-img {
+      width: 200px;
+      margin: 20px;
+      border-radius: 20px;
+      box-shadow: 0 0 10px #aaa;
+      transition: transform 0.5s ease;
+    }
+
+    .hedgehog-img:hover {
+      transform: rotate(360deg) scale(1.1);
+    }
+
+    .emoji {
+      font-size: 2em;
+      position: absolute;
+      animation: floatEmoji 10s linear infinite;
+    }
+
+    @keyframes floatEmoji {
+      0% { transform: translateY(100vh) rotate(0deg); opacity: 1; }
+      100% { transform: translateY(-120vh) rotate(360deg); opacity: 0.5; }
+    }
+
+    .sparkle {
+      position: absolute;
+      width: 12px;
+      height: 12px;
+      background: white;
+      border-radius: 50%;
+      box-shadow: 0 0 20px 10px white;
+      animation: sparkleFloat 10s infinite ease-in-out;
+    }
+
+    @keyframes sparkleFloat {
+      0% { transform: translateY(100vh) scale(1); opacity: 0.8; }
+      100% { transform: translateY(-120vh) scale(1.5); opacity: 0; }
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Al Pal 🦔💙</h1>
+  <p>al pal ur amazing and so swagger dapper cutie charcuterie<br>
+  have a blessed and gorjus weekend </p>
+
+  <!-- Your local hedgehog images -->
+  <img class="hedgehog-img" src="hedgehog1.jpg" alt="Hedgehog 1">
+  <img class="hedgehog-img" src="hedgehog2.jpg" alt="Hedgehog 2">
+
+  <!-- Floating Hedgehog Emojis -->
+  <div class="emoji" style="left:10%; animation-delay: 0s;">🦔</div>
+  <div class="emoji" style="left:25%; animation-delay: 3s;">🦔</div>
+  <div class="emoji" style="left:40%; animation-delay: 1.5s;">🦔</div>
+  <div class="emoji" style="left:60%; animation-delay: 4s;">🦔</div>
+  <div class="emoji" style="left:75%; animation-delay: 2.5s;">🦔</div>
+  <div class="emoji" style="left:90%; animation-delay: 1s;">🦔</div>
+
+  <!-- Sparkles -->
+  <div class="sparkle" style="left:15%; animation-delay: 0s;"></div>
+  <div class="sparkle" style="left:35%; animation-delay: 2s;"></div>
+  <div class="sparkle" style="left:55%; animation-delay: 4s;"></div>
+  <div class="sparkle" style="left:75%; animation-delay: 1s;"></div>
+  <div class="sparkle" style="left:85%; animation-delay: 3s;"></div>
+
+</body>
+</html>
